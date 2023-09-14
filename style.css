@@ -282,11 +282,19 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding: 14px 39px 14px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 14px;
     width: 212px;
     height: 48px;
     border: #FF6A6A 1px solid;
 }
+
+.mc__link:hover {
+    font-size: 20px;
+    padding-top: 10px;
+    border: #FF6A6A 3px solid;
+} 
 
 
 /* FOOTER */
