@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.center__top {
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+}
+
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
+
+/*  HEADER  */
+.header {
+    height: 75px;
+    background-color: #000000;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.header__content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+
+.head__brand {
+    margin-right: 40px;
+}
+
+.header__right {
+    width: 158.996px;
+    height: 29px;
+}
+
+/* TOP */
+
+.top {
+    height: 764px;
+    background-color: #F1E4E6;
+    margin-bottom: 65px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.top__img {
+    width: 800px;
+    background-color: #F1E4E6;
+}
+
+.top__title {
+    width: 799px;
+}
+
+.t__title {
+    padding-left: 64px;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* MAIN */
+
+.main {
+    background-color: #fff;
+}
+
+/* main__top */
+
+.main__top {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 96px;
+}
+
+.top__title__text {
+    padding-left: 16px;
+}
+
+.colortext {
+    color: #F16D7F;
+}
+
+.main__top__row1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.main__top__row2 {
+    width: 1140px;
+    height: 180px; 
+    background-color: #211616B2; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mt__item{
+    width: 360px;
+    height: 260px;
+    background-color: #211616B2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mt__link {
+    display: block;
+}
+
+.mt__link:hover {
+    display: block;
+    border: #F16D7F 1px solid;
+    padding-right: 16p;
+}
+
+.mt__text-1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mt__text-2 {
+    color: #F16D7F;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* main__content */
+
+.main__content {
+    background-color: #fff;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mc__content {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 360px);
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+.mc__title {
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.mc__subtitle {
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.mc__item__img {
+    background-color: #F3EDED;
+}
+
+.mc__item__img-2 {
+    padding: 9px 108px 11px;
+}
+
+.mc__item {
+    height: 581px;  
+}
+
+.mc__item__dsc {
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #F8F8F8;
+}
+
+.mc__item__heading {
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mc__item__text {
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.price {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main__link {
+    width: 212px;
+    height: 48px;
+}
+
+.mc__link {
+    box-sizing: border-box;
+    color: #F26376;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 14px 39px 14px;
+    width: 212px;
+    height: 48px;
+    border: #FF6A6A 1px solid;
+}
+
+
+/* FOOTER */
